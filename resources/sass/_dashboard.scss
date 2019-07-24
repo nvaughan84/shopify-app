@@ -1,0 +1,43 @@
+h3
+{
+	text-align: center;
+    padding: 40px 0;
+    text-transform: uppercase;
+}
+
+.button-container
+{
+	    margin-bottom: 20px;
+    text-align: right;
+}
+
+.logo
+{
+	text-align: center;
+    margin: 40px 0;
+
+	img
+	{
+		max-width: 400px;
+	}
+}
+
+li{
+	&.tab
+	{
+		a{			    
+			    height: 40px;
+			    display: inline-block;
+			    line-height: 40px;
+			    padding: 0 30px;
+
+    		&.active
+	    	{		    		
+	    		background: #dee2e6;
+	    		color: #FFF;
+	    	}
+		}
+		
+
+	}
+}
